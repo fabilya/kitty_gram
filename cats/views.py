@@ -12,3 +12,4 @@ class CatList(generics.ListCreateAPIView):
 class CatDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Cat.objects.all()
     serializer_class = CatSerializer
+    
